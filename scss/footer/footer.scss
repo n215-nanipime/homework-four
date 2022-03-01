@@ -1,0 +1,40 @@
+footer {
+  margin: 0 auto;
+  max-width: $banner-footer-width;
+  height: $footer-height;
+  background-color: $site-blue;
+  color: $site-white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+  margin-top: 10%;
+
+  .logo {
+    p {
+      margin-left: 35px;
+      width: 92px;
+      height: 38px;
+      color: $site-white;
+      border-style: solid;
+      padding-top: 15px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 20px;
+      font-weight: normal;
+      text-align: center;
+    }
+  }
+
+  p {
+    // margin: auto auto 0 auto;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 12px;
+  }
+
+  .medias {
+    margin-right: 35px;
+  }
+}
